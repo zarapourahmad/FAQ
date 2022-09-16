@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  max-width: 1440px;
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(
+    to bottom,
+    hsl(273, 75%, 66%),
+    hsl(240, 73%, 65%)
+  );
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 15vh 20vw;
+  width: 60vw;
+  height: 70vh;
+  background-color: white;
+  border-radius: 18px;
+  position: relative;
+  overflow: hidden;
+}
+section {
+  margin: 10vh 2vw;
+}
+h2 {
+  font-weight: 700;
+  font-size: x-large;
+}
+summary {
+  color: hsl(237, 12%, 33%);
+  margin: 2vh;
+  list-style-type: none;
+}
+summary:hover {
+  color: hsl(14, 88%, 65%);
+}
+hr {
+  border-left: none;
+  width: 20vw;
+  color: hsl(240, 6%, 50%);
+}
+p {
+  margin-left: 1vw;
+  width: 19vw;
+  color: hsl(240, 6%, 50%);
+  margin-bottom: 1.5vh;
+}
+.arrow {
+  position: relative;
+}
+.hide {
+  transform: rotate(180deg);
+  transition: transform 200ms;
+  color: rgb(29, 30, 53);
+}
+.hide2 {
+  transition: transform 200ms;
+}
+.one {
+  left: 51.5px;
+}
+.two {
+  left: 55px;
+}
+.three {
+  left: 106px;
+}
+.four {
+  left: 103px;
+}
+.five {
+  left: 70.5px;
+}
+.box {
+  position: absolute;
+  top: 43vh;
+  left: 14vw;
+  z-index: 1;
+}
+.pattern {
+  position: absolute;
+  left: -550px;
+  bottom: -123px;
+}
+
+.woman {
+  position: absolute;
+  left: -55px;
+  bottom: 102px;
+}
